@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handson1-JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>1.Add two Numbers</h1>
+        <h3>You are provided with two numbers A and B.Your task is to add these two numbers.
+        </h3>
+        <p> const AddTwoNumbers = (a,b) => { <br>
+            var sum=a+b;<br>
+            return sum;<br>
+            };
+        </p>
+    </div>
+
+    <div class="main">
+        <h1>2.Find if the conditions are obeyed or not?</h1>
+        <h3>You are given two number first as A and second as B and check if both conditions (A < 10 and A> B) are
+                satisfied or not with the help of operators.
+                </h2>
+                <p>const Is_Valid = (a,b) => {<br>
+                    return(a<10 && a>b);<br>
+                        };
+                </p>
+    </div>
+
+    <div class="main">
+        <h1>3.Check the conditons</h1>
+        <h3>You are given two numbers A and B. You need to do the following checks:
+            <ol type="1">
+                <li>if both are divisible by 10 console true.</li>
+                <li>if both are not divisible by 10 console false.</li>
+                <li>if one of them only is divisible by 10 console true.</li>
+                Use operator to do this.
+            </ol>
+        </h3>
+        <p>const Check = (A, B) =>{<br>
+            if (A%10===0 && B%10===0){<br>
+            return("true");<br>
+            }<br>
+            else if (A%10===0 || B%10===0){<br>
+            return("true")<br>
+            }<br>
+            else{<br>
+            return("false")<br>
+            }<br>
+
+            };<br>
+        </p>
+    </div>
+    <div class="main">
+        <h1>4.Find the first digit of a 4 digit number</h1>
+        <h3>You are provided a four digit number N only. Your task is to print out the first digit of that number.</h3>
+        <p>const First_Digit = (n) => {<br>
+            let a=n/1000;<br>
+            return(Math.floor(a)) <br>
+            };
+        </p>
+    </div>
+
+    <div class="main">
+        <h1>5.Find the last digit of a 4 digit number</h1>
+        <h3>You are provided a four digit number N only. Your task is to print out the last digit of that number.</h3>
+        <p>const Last_Digit = (n) => {<br>
+            let a=n%10;<br>
+            return (a)<br>
+            };
+        </p>
+    </div>
+
+    <div class="main">
+        <h1>6.Find the remainder</h1>
+        <h3>You are provided with two numbers A and B where A as divisor and B as dividend.Your task is find the
+            remainder.</h3>
+        <p>const Find_the_remainder = (a,b) => {<br>
+            return (b%a)<br>
+            };</p>
+    </div>
+
+    <div class="main">
+        <h1>7.Multipy two Numbers</h1>
+        <h3>You are provided with two numbers A and B. Your task is to multiply these two numbers.</h3>
+        <p>const Multiply_two_number = (a,b) => {<br>
+            return (a*b)<br>
+            };
+        </p>
+    </div>
+    <div class="main">
+        <h1>8.Marks Calculator</h1>
+        <h3>Shyam has got his marks in three subjects as A, B, and C (out of 100).Write a program to calculate his total
+            marks and his average.</h3>
+        <p>const Sum = (A, B, C) =>
+            {<br>
+            return(A+B+C)<br>
+            };<br>
+
+            const Average = (A, B, C) =><br>
+            {<br>
+            return((A+B+C)/3)<br>
+            };
+        </p>
+    </div>
+
+</body>
+
+</html>
